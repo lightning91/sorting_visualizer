@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #E3E2E3;
+}
+canvas{
+  background: #E3E2E3;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /*border: 5px solid green;*/
+
+}
+.navbar{
+  background-color: #202020;
+  width: 100%;
+  height: 65px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sortbtw{
+  float: left;
+  padding: 12px 40px;
+}
+
+.rangebtw{
+  float: left;
+  padding: 20px 40px;
+}
+
+.dropdown{
+  float: left;
+  padding: 12px 40px;
+}
+.arr{
+  float: left;
+  padding: 20px 40px;
+}
+
+#button{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px 8px;
+  border-radius: 10px
+}
+
+#sortSelect{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px 8px;
+  border-radius: 10px
+}
+
+option{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px 8px;
+}

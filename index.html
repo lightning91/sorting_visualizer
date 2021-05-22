@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    <title></title>
+
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class ="sortbtw">
+        <button type="button" id="button">SORT</button>
+      </div>
+      <div class ="rangebtw">
+        <label for="sortRange">Change array size & sorting speed</label>
+        <input type="range" min="0" max="100" value="0" id ="sortRange">
+      </div>
+      <div class ="dropdown">
+        <form>
+          <label for="sortSelect">Choose sorting algorithm</label>
+          <select id="sortSelect" name="sortSelect">
+            <option value="quickSort" selected>Quick Sort</option>
+            <option value="mergeSort">Merge Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+          </select>
+        </form>
+      </div>
+      <div class ="arr">
+        <p id="newArr">Create new array</p>
+      </div>
+    </div>
+    <canvas></canvas>
+
+    <script src="src/main.js">
+    </script>
+  </body>
+</html>
